@@ -1,0 +1,23 @@
+#game, .game-container {
+	
+}
+.loading {
+	display: none !important;
+}
+.game-container {
+	background: none;
+}
+.embedded-wrapper {
+
+}
+body, html {
+	background: transparent;
+}
+
+canvas {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}

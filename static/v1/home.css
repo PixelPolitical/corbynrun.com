@@ -1,0 +1,356 @@
+
+html, body {
+	height: auto;
+}
+html, body, .site-wrapper {
+	min-height: 750px;
+}
+.nav-masthead .nav-link {
+	color: white;
+}
+.cover-container {
+	width: 100%;
+	max-width: 1024px;
+}
+.get-app {
+	text-align: left;
+	height: 70px;
+}
+.mastfoot, .masthead {
+	position: relative;
+	width: 100%;
+	color: white;
+}
+.masthead {
+	margin-bottom: 0rem;
+}
+.game-container {
+	position: relative;
+	margin: auto;
+}
+.game-container, #game {
+	width: 800px;
+	height: 500px;
+}
+#game {
+	display: none;
+	background: rgba(0,0,0,0.5);
+}
+.app-badge {
+	height: 80px;
+	width: 190px;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.app-badge.android {
+	background-image: url(https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png);
+	height: 95px;
+	width: 210px;
+	float: right;
+}
+.app-badge.ios {
+	background-image: url(https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg);
+	margin-top: 13px;
+}
+.inner {
+	padding: 1rem 2rem;
+	padding-bottom: 0;
+}
+.small-height {
+	height: 85px;
+}
+
+.share-btn {
+	display: inline-block;
+	color: #ffffff;
+	border: none;
+	padding: 0.2em;
+	width: 2.5em;
+	box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+	outline: none;
+	text-align: center;
+	font-size: 32px;
+	margin-left: 9px;
+}
+
+.share-btn:hover {
+	color: #eeeeee;
+}
+
+.share-btn:active {
+	position: relative;
+	top: 2px;
+	box-shadow: none;
+	color: #e2e2e2;
+	outline: none;
+}
+
+.social {
+	margin-top: 10px;
+	margin-right: -25px;
+}
+
+.share-btn.twitter     { background: #55acee; }
+.share-btn.facebook    { background: #3B5998; }
+.share-btn.reddit      { background: #ff5700; }
+.share-btn.linkedin    { background: #4875B4; }
+.share-btn.email       { background: #444444; }
+
+
+/* mobile mode */
+
+.mobile-content {
+	display: block;
+}
+
+.share-image {
+	background-image: url(share-image.jpg);
+	background-size: contain;
+	width: 100%;
+	min-height: 200px;
+	background-repeat: no-repeat;
+	display: block;
+	background-position: center;
+	margin-bottom: 15px;
+}
+
+.about {
+	text-align: center;
+	margin-top: 25px;
+}
+
+
+.loading {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	padding-top: 439px;
+	background-image: url(share-image.jpg);
+	background-repeat: no-repeat;
+
+
+	background-size: contain;
+	background-position: top left;
+}
+
+.loading .progress {
+	border-radius: 0;
+	border: 0 solid white;
+	background-color: rgb(160, 145, 152);
+}
+
+.loading .progress-bar {
+	height: 61px;
+	background: white;
+}
+
+.can-play-game .make-me-wider {
+	display: none;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 30px;
+	background: rgba(146,0,13, 1);
+	z-index: 999999;
+	padding-top: 110px;
+}
+
+.can-play-game .make-me-wider h1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.can-play-game .make-me-wider .left-arrow, .can-play-game .make-me-wider .right-arrow {
+	position: absolute;
+	top: 180px;
+	color: white;
+	opacity: 0.8;
+	font-size: 78px;
+}
+.can-play-game .make-me-wider .left-arrow {
+	left: 0;
+}
+.can-play-game .make-me-wider .right-arrow {
+	right: 0;
+}
+
+.no-can-play-game .make-me-wider {
+	display: none !important;
+}
+
+.no-can-play-game .game-container {
+	display: none;
+}
+
+.small-logo {
+	background-image: url(icon.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	margin-top: -1px;
+	position: absolute;
+	left: 33px;
+}
+
+.masthead-brand {
+	padding-left: 45px;
+}
+
+
+.cover-container {
+	background: none;
+	max-width: 860px;
+}
+.site-wrapper-inner {
+	background-image: url(screen.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1145px;
+	background-color: transparent;
+}
+
+.small-height {
+	margin-top: 15px;
+	margin-bottom: -15px;
+}
+.masthead {
+	margin-bottom: 20px;
+}
+
+body {
+	background-image: url(texture.jpg);
+}
+
+@media screen and (max-width: 870px) {
+	html, body, .site-wrapper {
+		min-height: 880px;
+	}
+	.share-image {
+		visibility: hidden;
+	}
+	h3 {
+		line-height: 1.3em;
+		margin-bottom: 25px;
+	}
+	.masthead {
+		display: none;
+	}
+	.share-btn {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.get-app {
+		height: auto;
+	}
+	.app-badge {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 250px;
+	}
+	.app-badge.android {
+		float: none;
+		height: 115px;
+		width: 287px;
+	}
+	.share-image {
+		min-height: 154px;
+		margin-top: 25px;
+		margin-bottom: 85px;
+	}
+	.inner {
+		padding: 0;
+		margin: auto;
+	}
+	.cover-container {
+		padding: 15px;
+	}
+	.site-wrapper-inner {
+		background-image: url(./screen-mobile.png);
+		background-size: 89%;
+		background-position: center 20px;
+	}
+	.social-container {
+		margin: auto;
+		margin-top: 0;
+	}
+	.share-btn {
+		zoom: 1.3;
+		margin-left: 0;
+	}
+	.social {
+		margin-right: 0;
+		margin-top: 0;
+	}
+	.about {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.about .inner {
+		margin-top: 5px;
+	}
+	.about .inner p {
+		margin:0;
+	}
+	h3 {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (min-width:500px)  and (max-width: 959px) {
+	.site-wrapper-inner {
+		vertical-align: top;
+	}
+	.share-image {
+		min-height: 420px;
+	}
+	.about {
+		padding-top: 35px;
+		padding-bottom: 35px;
+		position: static;
+	}
+	html, body, .site-wrapper {
+		min-height: 1024px;
+	}
+}
+
+@media (max-width: 959px) {		
+	.can-play-game .make-me-wider {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 330px) {
+	.share-image {
+		margin-bottom: 45px;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	#game {
+		display: inline-block;
+	}
+	.mobile-content {
+		display: none;
+	}
+	.cover-container .inner.cover {
+		padding-top: 6px;
+	}
+	.about {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.get-app {
+	  width: 400px;
+	}
+}

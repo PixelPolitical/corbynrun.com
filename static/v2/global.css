@@ -1,0 +1,43 @@
+.header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: black;
+}
+
+.heading {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.navbar-brand {
+	color: white;
+}
+.nav-link {
+	color: white;
+	font-weight: bold;
+}
+.nav-link:hover {
+	color: #990000;
+}
+.nav-item {
+	float: left;
+}
+.game-row {
+	padding-top: 60px;
+}
+.header {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+.btn-primary {
+	background-color: #990000;
+	border-color: #990000;
+}
+.btn-primary:hover {
+	background-color: #7a0000;
+}
+
+body {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
