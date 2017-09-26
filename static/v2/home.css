@@ -325,6 +325,17 @@ h1,h2,h3,h4,h5,h6 {
 	float: right;
 }
 
+#games-for-the-many {
+	background-color: #FF4136;
+	color: white;
+	font-family: 'Bungee', sans-serif;
+}
+
+#games-for-the-many a {
+	color: white;
+	text-decoration: none;
+}
+
 @media (max-width: 769px) {
 	.music {
 		margin-bottom: 25px;
