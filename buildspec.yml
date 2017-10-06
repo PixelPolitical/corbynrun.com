@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - aws s3 sync . "s3://corbynrun.com" --exclude="*.git/*" --exclude="buildspec.yml"
+      - aws s3 sync . "s3://corbynrun.com" --exclude="*.git/*" --exclude="buildspec.yml" --region=eu-west-2
 
 artifacts:
   files:
